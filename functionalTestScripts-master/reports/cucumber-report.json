@@ -1,0 +1,507 @@
+[
+  {
+    "elements": [
+      {
+        "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "1 :Offering a new Lloyds saving account of higher AER to a user whose total credit outstandings are lesser than his total debit accounts balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user navigates to \"http://localhost:3004/#/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1117775
+            },
+            "line": 4,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enters the login name \"alice\"",
+            "result": {
+              "status": "passed",
+              "duration": 3382659
+            },
+            "line": 5,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enters the password \"wonderland\"",
+            "result": {
+              "status": "passed",
+              "duration": 875109
+            },
+            "line": 6,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 827998
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total debit account balance for alice",
+            "result": {
+              "status": "passed",
+              "duration": 1662219
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total credit account balance for alice",
+            "result": {
+              "status": "passed",
+              "duration": 2954660
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on yes button to optimise his/her savings",
+            "result": {
+              "status": "passed",
+              "duration": 436888
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Agree and Pay button on payout page",
+            "result": {
+              "status": "passed",
+              "duration": 711554
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Switch Now button on the offerings page",
+            "result": {
+              "status": "passed",
+              "duration": 727999
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the alert text",
+            "result": {
+              "status": "passed",
+              "duration": 612888
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logs out from the application",
+            "result": {
+              "status": "passed",
+              "duration": 723109
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 84972087173
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "2 :Offering a new Lloyds credit card of lower APR to a user whose total credit outstandings are more than his total debit accounts balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user navigates to \"http://localhost:3004/#/\"",
+            "result": {
+              "status": "passed",
+              "duration": 172444
+            },
+            "line": 21,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enters the login name \"john\"",
+            "result": {
+              "status": "passed",
+              "duration": 1840441
+            },
+            "line": 22,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enters the password \"doe\"",
+            "result": {
+              "status": "passed",
+              "duration": 1128442
+            },
+            "line": 23,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 627110
+            },
+            "line": 24,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total debit account balance for john",
+            "result": {
+              "status": "passed",
+              "duration": 863554
+            },
+            "line": 25,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total credit account balance for john",
+            "result": {
+              "status": "passed",
+              "duration": 1499108
+            },
+            "line": 26,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on yes button to optimise his/her savings",
+            "result": {
+              "status": "passed",
+              "duration": 360889
+            },
+            "line": 27,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Agree and Pay button on payout page",
+            "result": {
+              "status": "passed",
+              "duration": 519110
+            },
+            "line": 28,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Switch Now button on the offerings page",
+            "result": {
+              "status": "passed",
+              "duration": 398665
+            },
+            "line": 29,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the alert text",
+            "result": {
+              "status": "passed",
+              "duration": 450666
+            },
+            "line": 30,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logs out from the application",
+            "result": {
+              "status": "passed",
+              "duration": 935109
+            },
+            "line": 31,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 83326816163
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "3 :Offering a new Lloyds saving account of higher AER to a user whose total credit outstandings are lesser than his total debit accounts balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user navigates to \"http://localhost:3004/#/\"",
+            "result": {
+              "status": "passed",
+              "duration": 141778
+            },
+            "line": 38,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user enters the login name \"alice\"",
+            "result": {
+              "status": "passed",
+              "duration": 892442
+            },
+            "line": 39,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enters the password \"wonderland\"",
+            "result": {
+              "status": "passed",
+              "duration": 917776
+            },
+            "line": 40,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 359110
+            },
+            "line": 41,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total debit account balance for alice",
+            "result": {
+              "status": "passed",
+              "duration": 696888
+            },
+            "line": 42,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the total credit account balance for alice",
+            "result": {
+              "status": "passed",
+              "duration": 1654663
+            },
+            "line": 43,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on yes button to optimise his/her savings",
+            "result": {
+              "status": "passed",
+              "duration": 375554
+            },
+            "line": 44,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Agree and Pay button on payout page",
+            "result": {
+              "status": "passed",
+              "duration": 751998
+            },
+            "line": 45,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user clicks on Switch Now button on the offerings page",
+            "result": {
+              "status": "passed",
+              "duration": 599110
+            },
+            "line": 46,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "verify the alert text",
+            "result": {
+              "status": "passed",
+              "duration": 602665
+            },
+            "line": 47,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user logs out from the application",
+            "result": {
+              "status": "passed",
+              "duration": 725777
+            },
+            "line": 48,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\step-definitions\\optima-steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 83644850567
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\OpenBanking\\functionalTestScripts-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Use Optima app to suggest best payout plan to a user by using lower AER debit account to pay off higher APR credit outstandings",
+    "tags": [],
+    "uri": "D:/OpenBanking/functionalTestScripts-master/features/optima.feature"
+  }
+]

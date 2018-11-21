@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/OpenBanking/functionalTestScripts-master/features/optima.feature">
+            </property>
+        </properties>
+        <testcase name="Given user navigates to &quot;http://localhost:3004/#/&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.001117775">
+        </testcase>
+        <testcase name="When user enters the login name &quot;alice&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.003382659">
+        </testcase>
+        <testcase name="And enters the password &quot;wonderland&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000875109">
+        </testcase>
+        <testcase name="Then click on Sign In button" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000827998">
+        </testcase>
+        <testcase name="And verify the total debit account balance for alice" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.001662219">
+        </testcase>
+        <testcase name="And verify the total credit account balance for alice" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.00295466">
+        </testcase>
+        <testcase name="Then user clicks on yes button to optimise his/her savings" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000436888">
+        </testcase>
+        <testcase name="Then user clicks on Agree and Pay button on payout page" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000711554">
+        </testcase>
+        <testcase name="Then user clicks on Switch Now button on the offerings page" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000727999">
+        </testcase>
+        <testcase name="And verify the alert text" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000612888">
+        </testcase>
+        <testcase name="And user logs out from the application" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;1-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000723109">
+        </testcase>
+    </testsuite>
+    <testsuite name="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/OpenBanking/functionalTestScripts-master/features/optima.feature">
+            </property>
+        </properties>
+        <testcase name="Given user navigates to &quot;http://localhost:3004/#/&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.000172444">
+        </testcase>
+        <testcase name="When user enters the login name &quot;john&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.001840441">
+        </testcase>
+        <testcase name="And enters the password &quot;doe&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.001128442">
+        </testcase>
+        <testcase name="Then click on Sign In button" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.00062711">
+        </testcase>
+        <testcase name="And verify the total debit account balance for john" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.000863554">
+        </testcase>
+        <testcase name="And verify the total credit account balance for john" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.001499108">
+        </testcase>
+        <testcase name="Then user clicks on yes button to optimise his/her savings" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.000360889">
+        </testcase>
+        <testcase name="Then user clicks on Agree and Pay button on payout page" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.00051911">
+        </testcase>
+        <testcase name="Then user clicks on Switch Now button on the offerings page" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.000398665">
+        </testcase>
+        <testcase name="And verify the alert text" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.000450666">
+        </testcase>
+        <testcase name="And user logs out from the application" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;2-:offering-a-new-lloyds-credit-card-of-lower-apr-to-a-user-whose-total-credit-outstandings-are-more-than-his-total-debit-accounts-balance" time="0.000935109">
+        </testcase>
+    </testsuite>
+    <testsuite name="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/OpenBanking/functionalTestScripts-master/features/optima.feature">
+            </property>
+        </properties>
+        <testcase name="Given user navigates to &quot;http://localhost:3004/#/&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000141778">
+        </testcase>
+        <testcase name="When user enters the login name &quot;alice&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000892442">
+        </testcase>
+        <testcase name="And enters the password &quot;wonderland&quot;" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000917776">
+        </testcase>
+        <testcase name="Then click on Sign In button" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.00035911">
+        </testcase>
+        <testcase name="And verify the total debit account balance for alice" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000696888">
+        </testcase>
+        <testcase name="And verify the total credit account balance for alice" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.001654663">
+        </testcase>
+        <testcase name="Then user clicks on yes button to optimise his/her savings" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000375554">
+        </testcase>
+        <testcase name="Then user clicks on Agree and Pay button on payout page" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000751998">
+        </testcase>
+        <testcase name="Then user clicks on Switch Now button on the offerings page" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.00059911">
+        </testcase>
+        <testcase name="And verify the alert text" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000602665">
+        </testcase>
+        <testcase name="And user logs out from the application" classname="use-optima-app-to-suggest-best-payout-plan-to-a-user-by-using-lower-aer-debit-account-to-pay-off-higher-apr-credit-outstandings;3-:offering-a-new-lloyds-saving-account-of-higher-aer-to-a-user-whose-total-credit-outstandings-are-lesser-than-his-total-debit-accounts-balance" time="0.000725777">
+        </testcase>
+    </testsuite>
+</testsuites>
